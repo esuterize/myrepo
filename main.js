@@ -12,7 +12,7 @@ async function main() {
     await port.write(1); // LED を点灯
     await sleep(500); // 1000 ms (1秒) 待機
     await port.write(0); // LED を消灯
-    await sleep(2000); // 1000 ms (1秒) 待機
+    await sleep(5000); // 1000 ms (1秒) 待機
   }
 }
 
